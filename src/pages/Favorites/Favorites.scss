@@ -1,0 +1,20 @@
+
+
+
+.Favorites {
+    .favoriteTracks {
+      display: flex;  
+      justify-content: center;
+      text-align: center;
+  
+      &.empty {
+        padding-top: 50px; /* Добавим отступ сверху, чтобы текст не прижимался к верху страницы */
+      }
+    }
+  
+    .center {
+      margin-top: 20px; /* Добавим небольшой отступ сверху для выравнивания текста по центру */
+    }
+  }
+  
+  
